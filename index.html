@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LPU - Samaritan</title>
+
+    <!-- Script and styles -->
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body onload="openCity(event, 'SCSS')">
+    <header>
+        <div class="nav-wrapper">
+            <div class="logo-container">
+                <img class="logo" src="https://play-lh.googleusercontent.com/l3o1FI4-CAutT3CFH1KJP8juNsv0zUkQKVxfNhfymbiHfW-HiC4Fz7919Q-ku5cWuO8=w600-h300-pc0xffffff-pd" alt="Logo">
+                <span>SAMARITAN</span>
+            </div>
+            <nav>
+                <input class="hidden" type="checkbox" id="menuToggle">
+                <label class="menu-btn hidden" for="menuToggle">
+                    <div class="menu"><i class="fas fa-bars"></i></div>
+                    
+                </label>
+                <div class="nav-container">
+                    <ul class="nav-tabs">
+                        <li class="nav-tab">Github</li>
+                        <li class="nav-tab sign-inbtn">Login</li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="header">
+        <div class="columns">
+            <div class="column">
+                <img src="assets/images/image1.png" class="vert-move" alt="">
+            </div>
+            <div class="column">
+                <h1>Stuck Somewhere?</h1>
+                <p>Your productivity will be improved with an uplifter. Here, talented individuals are constantly keen to seek out difficulties.</p>
+                <button>Get Started</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="language">
+        <p>Node</p>
+        <p>C#</p>
+        <p>JQuery</p>
+        <p>NodeJs</p>
+        <p>Angular</p>
+        <p>React</p>
+        <p>Mongodb</p>
+        <p>PHP</p>
+        <p>C#</p>
+    </section>
+
+    <section class="code-snippet">
+        <p class="main-heading">Problems</p>
+        <p class="sub-heading">How you can submit your problems</p>
+        <img src="assets/images/cup1.png" class="img1 vert-move" alt="cup 1">
+
+        <img src="assets/images/1.png" class="img2 vert-move1" alt="cup 1">
+        <img src="assets/images/2.png" class="img3 vert-move2" alt="cup 1">
+        <img src="assets/images/3.png" class="img4 vert-move3" alt="cup 1">
+
+
+        <div class="outer">
+            <div class="inner">
+                <div class="tab">
+                    <button class="tablinks" onclick="openCity(event, 'SCSS')">SCSS</button>
+                    <button class="tablinks" onclick="openCity(event, 'C#')">C#</button>
+                    <button class="tablinks" onclick="openCity(event, 'Node')">Node</button>
+                </div>
+
+                <div id="SCSS" class="tabcontent">
+                    <textarea name="" placeholder="" disabled>
+                    </textarea>
+                </div>
+
+                <div id="C#" class="tabcontent">
+                    <textarea name="" style="background-image: url('https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/user-interface-2.png') ;" placeholder="" disabled>
+                    </textarea>
+
+                </div>
+
+                <div id="Node" class="tabcontent">
+                    <textarea name="" style="background-image: url('https://raw.githubusercontent.com/codeSTACKr/codestackr-vscode-theme/master/images/theme-demo.gif') ;" placeholder="" disabled>
+                    </textarea>
+
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
